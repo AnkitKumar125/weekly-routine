@@ -1,0 +1,219 @@
+HTML PART :
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Routine </title>
+<link rel="stylesheet" type="text/css" href="routine.css ">
+<div id=border>
+	<h1>
+ <P id =meal> Weekly Menu Chart :</P>
+ </h1>
+	<form>
+ <h4>
+  <p> Monday : </p> </h4>
+  <p class=breakfast> Breakfast </p>
+  <select>
+  <option>Alu-Paratha</option>
+  <option>Chai</option>
+	</select>
+	<p class=lunch>Lunch</p> 
+  <select> 
+	<option>Rice</option>
+	<option>Roti</option>
+	<option>Dal</option>
+	<option>Seasonal-veg</option>
+	<option>Salad</option>
+  </select>
+  <p class="dinner"> Dinner</p>
+  <select>
+	<option> Rice</option>
+	<option>Roti</option>
+	<option>Besan-Sabji</option>
+	<option>Halwa </option>
+	</select>
+	 <h4><p>Tuesday : </p></h4>
+	<p class="breakfast">Break-Fast</p>
+  <select>
+	<option>Paratha</option>
+	<option>Chai</option>
+	</select>
+	<p class="lunch"> Lunch</p>
+  <select>
+	<option> Rice</option>
+	<option>Roti</option>
+	<option>DAl</option>
+	<option>Seasonal-Veg </option>
+	<option>Pickle</option>
+	</select>
+	<p class="dinner"> Dinner</p>
+  <select>
+	<option> Rice</option>
+	<option>Roti</option>
+	<option>Rajama</option>
+	<option>Pickle </option>
+	</select>
+ <h4><p> Wednesday : </p> </h4>
+ <p class=breakfast> Break-Fast</p>
+ <select>
+	<option>Sattu-paratha</option>
+	<option>Chai</option>
+ </select>
+ <p class="lunch">Lunch</p>
+  <select>
+	<option>Veg-Birani</option>
+	<option>Raita</option>
+	<option>Salad</option>
+	 </select>
+	 <p class="dinner"> Dinner</p>
+  <select>
+	<option> Rice</option>
+	<option>Roti</option>
+	<option>Allu-Soyabean</option>
+	<option>Dal</option>
+	<option>Sebai</option>
+	</select>
+	
+ <h4><p> Thursday : </p></h4>
+ <p class="breakfast"> Break-Fast</p>
+ <select>
+	<option>Bread-butter / Macroni</option>
+	<option>Chai</option>
+ </select>
+ <p class="lunch">Lunch</p>
+  <select>
+	<option> Rice</option>
+	<option>Kadhi</option>
+	<option>Alu-Bhujia</option>
+	</select>
+	<p class="dinner"> Dinner</p>
+  <select>
+	<option> Rice</option>
+	<option>Roti</option>
+	<option>Dal</option>
+	<option>Seasonal-Veg</option>
+	<option>Aachar</option>
+	</select> 
+ <h4><p> Friday : </p></h4>
+ <p class=breakfast> Break-Fast </p> 
+ <select> 
+	<option>Poha / Corn-Flakes</option>
+	<option>Chai/ Milk</option>
+	 </select>
+	 <p class="lunch">Lunch</p>
+  <select>
+	<option> Rice</option>
+	<option>Roti</option>
+	<option>Dal</option>
+	<option>Seasonal-Veg </option>
+	<option>Salad</option>
+	</select>
+	<p class="dinner"> Dinner</p>
+  <select>
+	<option> Rice</option>
+	<option>Roti</option>
+	<option>Allu-Matar</option>
+	<option>Dal </option>
+	</select>
+<h4> <p> Saturday : </p></h4>
+ <p class=breakfast>Break-Fast </p> 
+ <select>
+	<option>Plain-Paratha </option>
+	<option>Allu-Channa Sabji</option>
+	<option>Chai</option>
+	</select>
+	<p class="lunch">Lunch</p>
+  <select>
+	<option>Rice / Khichadi</option>
+	<option>Roti / Papad / Tilori</option>
+	<option>Seasonal-Veg / Chokha</option>
+	<option>Salad </option>
+	</select>
+	<p class="dinner"> Dinner</p>
+  <select>
+	<option> Rice</option>
+	<option>Roti</option>
+	<option>Chola</option>
+	<option>Pickle </option>
+	</select>
+	<h4><p> Sunday : </p></h4> 
+ <p class=breakfast> Break-Fast</p>
+ <select>
+ <option>Maggi</option>
+  </select>
+ <p class=lunch> Lunch</p>
+ <select>
+	<option>Rice</option>
+	<option>Roti</option>
+	<option>Kadu / Palak / Seasonal-Veg</option>
+	<option>Dal  </option>
+	 </select>
+	 <p class=dinner>Dinner</p>
+	 <select>
+		<option>Puri</option>
+		<option>Jeera-Rice</option>
+		<option>Mattar-Panneer</option>
+		<option>Kheer</option>
+		</select>
+		
+		  
+			</div>
+
+
+ </form>
+ </div>
+ </h1>
+
+</div>
+
+
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+
+CSS PART :
+
+
+#border
+{
+	height: 100vh;
+	width: 100vw;
+	border-width: 5px;
+	border-style: solid;
+	border-color: orange;
+	border-radius: 10px;
+	margin: auto;
+	padding: 30px 30px 30px 30px ;
+	}
+
+#meal
+{  
+    height:100px;
+	width: 100px;
+	background-color: cyan;
+	font-size: 50px;
+	display: inline;
+	text-decoration: underline;
+	}
+.breakfast
+{
+	display: inline;
+	background-color:red ;
+}
+.lunch
+{
+	display: inline;
+	background-color: green;
+}
+.dinner
+{
+	display: inline;
+	background-color: blue;
+}
